@@ -1,16 +1,16 @@
 activerecord-redshift-adapter
 ==============================
 
-Amazon Redshift adapter for ActiveRecord 5 (Rails 5).
+Amazon Redshift adapter for ActiveRecord 6 (Rails 6).
 
-This is based entirely on a fork of [aamine's ActiveRecord4 Redshift Adapter](https://github.com/aamine/activerecord4-redshift-adapter) with patches only to parts that caused us direct errors when trying to integrate with a Rails 5.0 project.
+This is based entirely on a fork of [LoyaltyNZ's ActiveRecord Redshift Adapter](https://github.com/LoyaltyNZ/activerecord4-redshift-adapter) with patches only to parts that caused us direct errors when trying to integrate with a Rails 6.0 project.
 
 ## Usage
 
 
 Write following in Gemfile:
 ```
-gem 'activerecord-redshift-adapter', git: "git://github.com/LoyaltyNZ/activerecord-redshift-adapter.git"
+gem 'activerecord-redshift-adapter', git: "git://github.com/ankopainting/activerecord-redshift-adapter.git"
 
 ```
 
